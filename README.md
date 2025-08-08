@@ -10,11 +10,14 @@ Este projeto é um site básico para uma padaria, desenvolvido em Flask, meu pri
 - **Frontend:**
     - **HTML5**
     - **CSS3**
+    - **JavaScript**
+    - **Bootstrap**
 - **Banco de Dados:**
     - **SQLite**
 
 ### Funcionalidades
-- **Página Inicial:** Logo da padaria.
+- **Gerenciamento de Produtos (CRUD):** É possível **cadastrar**, **editar** e **deletar** produtos do menu da padaria.
+- **Página Inicial:** Exibição da logo da padaria.
 - **Página de Produtos:** Detalhes de cada item do menu.
 - **Integração com Banco de Dados:** Gerenciamento dos dados dos produtos (nome, preço, descrição) de forma persistente.
 - **Rotas Dinâmicas:** Navegação entre as diferentes páginas do site.
