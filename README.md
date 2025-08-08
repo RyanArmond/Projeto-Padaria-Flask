@@ -7,6 +7,7 @@ Este projeto é um site básico para uma padaria, desenvolvido em Flask, meu pri
 - **Backend:**
     - **Python**
     - **Flask**
+    - **SQLAlchemy**
 - **Frontend:**
     - **HTML5**
     - **CSS3**
@@ -17,7 +18,13 @@ Este projeto é um site básico para uma padaria, desenvolvido em Flask, meu pri
 
 ### Funcionalidades
 - **Gerenciamento de Produtos (CRUD):** É possível **cadastrar**, **editar** e **deletar** produtos do menu da padaria.
-- **Página Inicial:** Exibição da logo da padaria.
-- **Página de Produtos:** Detalhes de cada item do menu.
-- **Integração com Banco de Dados:** Gerenciamento dos dados dos produtos (nome, preço, descrição) de forma persistente.
-- **Rotas Dinâmicas:** Navegação entre as diferentes páginas do site.
+- **Busca de Produtos:** Funcionalidade de pesquisa para encontrar produtos específicos pelo nome.
+- **Integração com Banco de Dados:** Gerenciamento dos dados de forma persistente utilizando SQLAlchemy e SQLite.
+- **Design Responsivo:** O layout é adaptável a diferentes tamanhos de tela graças ao uso do Bootstrap.
+
+### Estrutura de Rotas
+- `/`: Rota principal que exibe a página inicial.
+- `/produtos`: Rota para visualizar todos os produtos e realizar pesquisas.
+- `/cadastrar_produto`: Rota para o formulário de cadastro de novos produtos.
+- `/editar_produtos/<id>`: Rota para editar um produto específico, identificado pelo seu ID.
+- `/deletar_produto/<id>`: Rota para remover um produto do banco de dados.
